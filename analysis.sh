@@ -1,3 +1,5 @@
+$python
+
 #Importing numpy for  
 import numpy as np
 
@@ -21,3 +23,4 @@ data.country.value_counts()
 data.vaccines.value_counts()
 df = data[["vaccines", "country"]]
 df.head()
+

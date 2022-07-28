@@ -16,3 +16,8 @@ data = pd.read_csv('/Users/omotoyosisaba/Downloads/archive/country_vaccinations.
 #Exploring and viewing data 
 data.head()
 data.describe()
+pd.to_datetime(data.date)
+data.country.value_counts()
+data.vaccines.value_counts()
+df = data[["vaccines", "country"]]
+df.head()

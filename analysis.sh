@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 #Importing covid-19 vaccination dataset 
-data = pd.read_csv("country_vaccinations.csv")
+data = pd.read_csv('/Users/omotoyosisaba/Downloads/archive/country_vaccinations.csv')
 
 #Exploring and viewing data 
 data.head()

@@ -1,5 +1,3 @@
-#!Usr/bin/bash
-
 #Importing numpy for  
 import numpy as np
 
